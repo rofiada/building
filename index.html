@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>bootstrap</title> 
+</head>
+<body>
+   
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="javascript:void(0)"><span class="text-warning">BUILD</span>HOME</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">prouduct</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">price</a>
+          </li>
+        </ul>
+        <form class="d-flex"><input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-dark text-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!--////////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imges/images (2).jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>your dream house</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sequi nam, ad consequuntur consequatur fugit. Odit voluptatem accusantium expedita. Rerum porro quae modi natus? Ipsum voluptates vitae porro recusandae beatae.</p>
+        <p><a href="#" class="btn btn-warning mt-3">lrean more</a></p>
+
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imges/download.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>your dream house</h5>
+        <p>Some representative pyoulaceholder content for the second slide.</p>
+        <p><a href="#" class="btn btn-warning mt-3">lrean more</a></p>
+
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imges/apta_image_1_0.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>your dream house</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+        <p><a href="#" class="btn btn-warning mt-3">lrean more</a></p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- about -->
+<section id="about" class="about-section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-2 col-12">
+      <div class="about-img">
+        <img src="imges/gothenburg-sweden-september-7-2007-260nw-1727823517.webp" alt="" class="img-fluid">
+      </div>
+      </div>
+      <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5 ">
+        <div class="text-about">
+          <h5>we provid best quality<br>service ever</h5>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, cumque sunt officia nulla corrupti esse repellendus recusandae tempore voluptatem magni numquam dolor voluptas commodi aperiam iste repellat est enim quo.</p>
+        <a href="#" class="btn btn-warning">learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- service section -->
+<section id="service" class="service section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-header text-center pb-5">
+          <h2>our services</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur<br> adipisicing elit. Possimus, cum?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      <a class="card-link" data-toggle="collapse" href="#collapseOne">
+        Collapsible Group Item #1
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        Collapsible Group Item #2
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+        Collapsible Group Item #3
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <h1 class="jum"> Tutorial</h1>
+  <p></p>Bootstrap is the most popular HTML, CSS...   <a href="#" class="tool" data-toggle="tooltip" title="click!">Here</a>
+</p>
+</div>
+
+<div class="jumbotron">
+  <h1 class="jum"> Tutorial</h1>
+  <p></p>Bootstrap is the most popular HTML, CSS...   <a href="#" class="tool" data-toggle="tooltip" title="click!">Here</a>
+</p>
+</div>
+<div class="jumbotron">
+  <h1 class="jum"> Tutorial</h1>
+  <p></p>Bootstrap is the most popular HTML, CSS...   <a href="#" class="tool" data-toggle="tooltip" title="click!">Here</a>
+</p>
+</div>
+
+<!-- portfolio secction -->
+<section id="portfolio" class="portfolio secction-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12"> 
+        <div class="section-hrader text-center pb-5">
+          <h2>our project</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, vero?</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-12 col-lg-4">
+        <div class="card text-light text-center bg-white pb-2">
+          <div class="card-body text-dark">
+            <div class="img-area mb-7">
+              <img src="imges/10.jpg" alt="" class="img-fluid">
+            </div>
+            <h3 class="card-title">building</h3>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ea reprehenderit dignissimos labore deserunt quae.</p>
+          <button class="btn btn-warning .text-dark">lrean more</button>
+          </div>
+        </div>
+      </div>
+
+     
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-light text-center bg-white pb-2">
+            <div class="card-body text-dark">
+              <div class="img-area mb-7">
+                <img src="imges/01.jpg" alt="" class="img-fluid">
+              </div>
+              <h3 class="card-title">building</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ea reprehenderit dignissimos labore deserunt quae.</p>
+            <button class="btn btn-warning .text-dark">lrean more</button>
+            </div>
+          </div>
+        </div>
+
+       
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-light text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-7">
+                  <img src="imges/tiny-houses-co_architecture_now_small_090-091.webp" alt="" class="img-fluid">
+                </div>
+                <h3 class="card-title">building</h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ea reprehenderit dignissimos labore deserunt quae.</p>
+              <button class="btn btn-warning .text-dark">lrean more</button>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+
+</section>
+<!-- team section -->
+<section id="team" class="team secction-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12"> 
+        <div class="section-hrader text-center pb-5">
+          <h2>our project</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, vero?</p>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="imges/resources-subindex.jpg" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2">rofaid</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+
+              <p class="socials">
+                <i class="fas fa-instgram text-dark mx-1"></i>
+                <i class="fas fa-linkedin text-dark mx-1"></i>
+                <i class="fas fa-tiwtter text-dark mx-1"></i>
+                <i class="fas fa-facebook text-dark mx-1"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="imges/istockphoto-1369199360-612x612.jpg" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2">omar</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+
+              <p class="socials">
+                <i class="fas fa-instgram text-dark mx-1"></i>
+                <i class="fas fa-linkedin text-dark mx-1"></i>
+                <i class="fas fa-tiwtter text-dark mx-1"></i>
+                <i class="fas fa-facebook text-dark mx-1"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="imges/f363771ad3c072ec71f1ea5e8f3868d18de231a6-1200x800.jpg" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2">aya</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+
+              <p class="socials">
+                <i class="fas fa-instgram text-dark mx-1"></i>
+                <i class="fas fa-linkedin text-dark mx-1"></i>
+                <i class="fas fa-tiwtter text-dark mx-1"></i>
+                <i class="fas fa-facebook text-dark mx-1"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="imges/istockphoto-1040913300-1024x1024.jpg" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2">ahmed</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+
+              <p class="socials">
+                <i class="fas fa-instgram text-dark mx-1"></i>
+                <i class="fas fa-linkedin text-dark mx-1"></i>
+                <i class="fas fa-tiwtter text-dark mx-1"></i>
+                <i class="fas fa-facebook text-dark mx-1"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+</section>
+
+ <!-- contact section starts -->
+ <section class="contact">
+  <h1 class="heading"> <span>contact</span> us</h1>
+  <div class="row">
+
+      <form action="">
+          <input type="text" placeholder="name" class="box"> 
+           <input type="email" placeholder="email" class="box"> 
+            <input type="number" placeholder="number" class="box">
+            <textarea name=""  class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+<input type="submit" value="send message" class="btn">
+
+      </form>
+      <div class="imges">
+      </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+   <!-- footer section starts -->
+   <section class="footer">
+    <div class="box-container">
+        <div class="box">
+        <h3>quick links</h3>
+        <a href="#">home</a> 
+        <a href="#">about</a> 
+        <a href="#">prouducts</a>
+         <a href="#">review</a> 
+         <a href="#">contact</a>
+    </div>
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#">my account</a> 
+            <a href="#"> my order</a> 
+            <a href="#">my favorite</a>
+        </div>
+   
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">india</a> 
+                <a href="#">usa</a> 
+                <a href="#">japan</a>
+                 <a href="#">france</a> 
+            </div>
+          
+                <div class="box">
+                    <h3>contact info</h3>
+                    <a href="#">+123-456-789</a> 
+                    <a href="#">flowers@gmail.com</a> 
+                     <a href="#">review</a> 
+                     <a href="#">contact</a>
+                </div>
+    </div>
+                <div class="credit">created by <span>web design</span>all rights responsive  </div>
+
+    </section>
+        <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

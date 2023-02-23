@@ -1,0 +1,153 @@
+
+body{
+    background-color: f1fbff;
+    background-image: url(../imges/771048b3a01e0cfe9127f687c7332b3a.jpg);
+}
+.section-padding{
+  padding: 10px;
+}
+.carousel-item{
+  height: 100vh;
+  min-width: 300px;
+}
+.carousel-caption{
+  bottom: 220px;
+  z-index: 2;
+}
+.carousel-caption h5{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+}
+.carousel-caption p{
+  width: 60%;
+  line-height: 1.9;
+  font-size: 18px;
+  margin: auto;
+  color: bisque;
+}
+.carousel-inner::before{
+content: '';
+position: absolute;
+width: 100%;
+top: 0;
+left: 0;
+height: 100%;
+background: rgba(0, 0,0, 0.7);
+z-index: 1;
+}
+#accordion{
+  background: black;
+}
+.jumbotron{
+  background: rgb(142, 110, 110);
+
+}
+.jum{
+  text-transform: uppercase;
+  text-align: center;
+  color: blueviolet;
+}
+.tool{
+  color: blue;
+}
+.service .card-body{
+  font-size: 50px;
+}
+.team .card-body i{
+  font-size: 20px;
+}
+.portfolio .card{
+  box-shadow: 15px 15px 40px  rgba(0, 0,0, 15);
+}
+.team .card{
+  box-shadow: 15px 15px 40px  rgba(0, 0,0, 15);
+}
+
+
+.contact .row{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 1.5rem;
+  align-items: center;
+
+
+}
+.contact .row form{
+  flex: 1 1 40rem;
+  padding: 2 2.5rem;
+  box-shadow: 0 .5rem 1.5rem rgba(0,0,0,0.1);
+  border: 1rem solid rgba(0,0,0,0.1);
+  background: #fff;
+  border-radius: .5rem;
+
+}
+.contact .row form .box{
+  padding: 1rem;
+  font-size: 1.7rem;
+  color: #333;
+  text-transform: none;
+  border: 1rem solid rgba(0,0,0,0.1);
+  border-radius: .5rem;
+  margin: .7rem 0;
+  width: 100%;
+
+}
+
+.contact .row form .box:focus{
+border-color:var(--pink);
+}
+.contact .row form textarea{
+  height: 15rem;
+  resize: none;
+}
+
+.footer{
+  background-color: #666;
+}
+
+.footer .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+
+}
+.footer .box-container .box{
+  flex:  1 1 25rem;
+}
+
+.footer .box-container .h3{
+  color: #77d6cc;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box a{
+  display: block;
+  color: #93d185;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+
+}
+
+.footer .box-container .box a:hover{
+  color: var(--pink);
+  text-decoration: underline;
+}
+
+.footer .box-container .box img{
+  margin-top: 1rem;
+}
+.footer .credit{
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  padding-top: 2.5rem;
+  font-size: 2rem;
+  color: #333;
+  border-top: 1rem solid rgba(0,0,0,0.1);
+}
+
+.footer .credit span{
+  color: var(--pink);
+}
